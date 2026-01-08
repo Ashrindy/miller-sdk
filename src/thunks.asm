@@ -41985,6 +41985,11 @@ PUBLIC ?Create@GOCPlayerCollider@player@app@@CAPEAV123@PEAVIAllocator@fnd@csl@@@
     mov rax, 0140616890h
     jmp rax
 
+PUBLIC ?GetPlayerCollision@GOCPlayerCollider@player@app@@QEBAPEAVPlayerCollision@23@XZ
+?GetPlayerCollision@GOCPlayerCollider@player@app@@QEBAPEAVPlayerCollision@23@XZ:
+    mov rax, 0140616990h
+    jmp rax
+
 PUBLIC ?GetRuntimeTypeInfo@GOCPlayerCollider@player@app@@UEBAPEAXXZ
 ?GetRuntimeTypeInfo@GOCPlayerCollider@player@app@@UEBAPEAXXZ:
     mov rax, 0140616a40h
