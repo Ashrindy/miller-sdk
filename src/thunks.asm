@@ -54880,11 +54880,6 @@ PUBLIC ?transformTo@btSoftBody@@UEAAXAEBVbtTransform@@@Z
     mov rax, 0140985f40h
     jmp rax
 
-PUBLIC ?getAabb@btSoftBody@@UEBAXAEAVbtVector3@@0@Z
-?getAabb@btSoftBody@@UEBAXAEAVbtVector3@@0@Z:
-    mov rax, 0140985f40h
-    jmp rax
-
 PUBLIC ?transform@btSoftBody@@UEAAXAEBVbtTransform@@@Z
 ?transform@btSoftBody@@UEAAXAEBVbtTransform@@@Z:
     mov rax, 0140986150h
@@ -54928,6 +54923,11 @@ PUBLIC ?serialize@btSoftBody@@UEBAPEBDPEAXPEAVbtSerializer@@@Z
 PUBLIC ??_DbtSoftBody@@QEAAXXZ
 ??_DbtSoftBody@@QEAAXXZ:
     mov rax, 014099d300h
+    jmp rax
+
+PUBLIC ?getAabb@btSoftBody@@UEBAXAEAVbtVector3@@0@Z
+?getAabb@btSoftBody@@UEBAXAEAVbtVector3@@0@Z:
+    mov rax, 01409a7f20h
     jmp rax
 
 PUBLIC ?getImpulseFactor@btSoftBody@@UEAA?AVbtMatrix3x3@@H@Z
@@ -57617,6 +57617,11 @@ PUBLIC ??$HasSceneParam@UFxCyberNoiseEffectParameter@needle@hh@@@RenderProperty@
 
 PUBLIC ??0GameServiceClass@game@hh@@QEAA@PEBDP6APEAVGameService@12@PEAVIAllocator@fnd@csl@@@ZPEAX@Z
 ??0GameServiceClass@game@hh@@QEAA@PEBDP6APEAVGameService@12@PEAVIAllocator@fnd@csl@@@ZPEAX@Z:
+    mov rax, 0140a21580h
+    jmp rax
+
+PUBLIC ??0GameServiceClass@game@hh@@QEAA@PEBDP6APEAVGameService@12@PEAVIAllocator@fnd@csl@@@ZPEAV012@@Z
+??0GameServiceClass@game@hh@@QEAA@PEBDP6APEAVGameService@12@PEAVIAllocator@fnd@csl@@@ZPEAV012@@Z:
     mov rax, 0140a21580h
     jmp rax
 
@@ -113418,11 +113423,6 @@ PUBLIC ?Kill@GameObject@game@hh@@QEAAXXZ
 PUBLIC ?Create@GameObject@game@hh@@SAPEAV123@PEBVGameObjectClass@23@PEAVIAllocator@fnd@csl@@@Z
 ?Create@GameObject@game@hh@@SAPEAV123@PEBVGameObjectClass@23@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 014f249f00h
-    jmp rax
-
-PUBLIC ?fUnk3@Messenger@fnd@hh@@UEAA_NXZ
-?fUnk3@Messenger@fnd@hh@@UEAA_NXZ:
-    mov rax, 014f258090h
     jmp rax
 
 PUBLIC ?ProcessMessage@GameObject@game@hh@@UEAA_NAEAVMessage@fnd@3@@Z
