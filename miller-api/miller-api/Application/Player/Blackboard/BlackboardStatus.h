@@ -58,8 +58,13 @@ namespace app::player {
 
         };
 
+        struct Description {
+            char playerId;
+            float unk8;
+        };
+
         static constexpr const char* name = "BlackboardStatus";
-        char byte20;
+        char playerId;
         uint32_t dword24;
         uint32_t dword28;
         uint64_t qword30; // also flag
@@ -90,6 +95,8 @@ namespace app::player {
         void SetWorldFlag(WorldFlag worldFlag, bool enabled);
         bool GetStateFlag(StateFlag stateFlag);
         bool GetWorldFlag(WorldFlag worldFlag);
+
+        void Setup(const Description& desc);
 
         DEFAULT_CREATE_FUNC(BlackboardStatus);
     };
