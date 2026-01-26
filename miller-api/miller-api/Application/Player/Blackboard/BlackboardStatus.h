@@ -29,6 +29,20 @@ namespace app::player {
             SPIN_DASH = 0x22,
         };
 
+        enum class CombatFlag : unsigned int
+        {
+            JUMP = 0x0,
+            BOOST = 0x03,
+            SIDE_STEP = 0x05,
+            AIR_TRICK = 0x1A,
+            CAMERA_MOVEMENT = 0x1F,
+            MOVEMENT = 0x20,
+            CAN_DBLAST = 0x32,
+            CAN_DSURF = 0x33,
+            CAN_AMOEBA = 0x34,
+            CAN_DWING = 0x35,
+        };
+
         enum class WorldFlag : unsigned int
         {
             KILLED = 0x01,
@@ -67,7 +81,7 @@ namespace app::player {
         char playerId;
         uint32_t dword24;
         uint32_t dword28;
-        uint64_t qword30; // also flag
+        csl::ut::Bitset<CombatFlag, uint64_t> combatFlags; // also flag
         csl::ut::Bitset<StateFlag, uint64_t> stateFlags;
         csl::ut::Bitset<WorldFlag, uint64_t> worldFlags[2];
         float outOfControlTime;
