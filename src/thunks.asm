@@ -18305,6 +18305,11 @@ PUBLIC ?ReturnA2@DvSceneObjectBase@dv@hh@@UEAAPEAXPEAX@Z
     mov rax, 01400fc210h
     jmp rax
 
+PUBLIC ?GetComponent@GameObject@game@hh@@QEAAPEAVGOComponent@23@IPEBVGOComponentClass@23@@Z
+?GetComponent@GameObject@game@hh@@QEAAPEAVGOComponent@23@IPEBVGOComponentClass@23@@Z:
+    mov rax, 01400fc670h
+    jmp rax
+
 PUBLIC ?SetModelResource@AppDvSceneObjectBase@dv@app@@UEAAXPEAVResModel@gfx@hh@@@Z
 ?SetModelResource@AppDvSceneObjectBase@dv@app@@UEAAXPEAVResModel@gfx@hh@@@Z:
     mov rax, 01400fc6e0h
@@ -57008,6 +57013,11 @@ PUBLIC ?Create@ResDecal@resources@heur@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ?Create@ResDecal@resources@heur@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@ResDecal@resources@heur@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01409eb7b0h
+    jmp rax
+
+PUBLIC ??_DResPointcloud@gfx@hh@@QEAAXXZ
+??_DResPointcloud@gfx@hh@@QEAAXXZ:
+    mov rax, 01409eb9d0h
     jmp rax
 
 PUBLIC ?Create@ResPointcloud@resources@heur@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z
@@ -113638,6 +113648,11 @@ PUBLIC ?ProcessMessage@DvSceneControl@dv@hh@@UEAA_NAEAVMessage@fnd@3@@Z
 PUBLIC ?SetUpdateFlags@GameObject@game@hh@@AEAAXW4UpdatingPhase@fnd@3@@Z
 ?SetUpdateFlags@GameObject@game@hh@@AEAAXW4UpdatingPhase@fnd@3@@Z:
     mov rax, 014f263a30h
+    jmp rax
+
+PUBLIC ?RemoveComponent@GameObject@game@hh@@QEAAXPEAVGOComponent@23@@Z
+?RemoveComponent@GameObject@game@hh@@QEAAXPEAVGOComponent@23@@Z:
+    mov rax, 014f264c60h
     jmp rax
 
 PUBLIC ?SetLayer@GameObject@game@hh@@IEAAXD@Z
