@@ -7614,6 +7614,8 @@
 1401612f0,j_?Construct@NeedleFxSceneConfig@rfl@heur@@CAXPEAU123@PEAVIAllocator@fnd@csl@@@Z,1
 1401612f0,j_?Construct@NeedleFxSceneConfig@needle@hh@@CAXPEAU123@PEAVIAllocator@fnd@csl@@@Z,1
 140161550,??_DGameMode@game@app@@QEAAXXZ,1
+140161660,?AddExtension@GameMode@game@app@@QEAAXPEAVGameModeExtension@23@@Z,1
+140161a20,j_?GetExtension@GameMode@game@app@@QEBAPEAVGameModeExtension@23@I@Z,1
 140161a90,?GetRuntimeTypeInfo@GameMode@game@app@@UEBAPEAXXZ,1
 140161cb0,?UnkFunc12@GameMode@game@app@@UEAA_NXZ,1
 140162870,j_??_GGameModeResourceManager@game@app@@QEAAXXZ,0
@@ -7805,6 +7807,9 @@
 140175e10,j_??_GGameModeCheckPointExtension@game@app@@QEAAXXZ,0
 140176d70,??0GameModeDItemExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,0
 140177030,?UnkFunc6@DisplaySwapDeviceDX11@ImplDX11@needle@hh@@UEAA_KXZ,1
+1401779e0,??0GameModeInputExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,1
+140177d80,j_?CreateInputComponent@GameModeInputExtension@game@app@@QEAAPEAVInputComponent@2hh@@IIIPEBD@Z,1
+140177e60,?GetInputComponent@GameModeInputExtension@game@app@@QEBAPEAVInputComponent@2hh@@I@Z,1
 140178e20,j_??0GameModeLayerStatusExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,0
 140179190,j_??_DGameModeLayerStatusExtension@game@app@@QEAAXXZ,0
 140179490,j_??_GGameModeLayerStatusExtension@game@app@@QEAAXXZ,0
@@ -57294,6 +57299,7 @@
 1473fb070,??0GameMode@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,0
 1474017b0,?Construct@NeedleFxSceneConfig@rfl@heur@@CAXPEAU123@PEAVIAllocator@fnd@csl@@@Z,1
 1474017b0,?Construct@NeedleFxSceneConfig@needle@hh@@CAXPEAU123@PEAVIAllocator@fnd@csl@@@Z,1
+14743bf10,?GetExtension@GameMode@game@app@@QEBAPEAVGameModeExtension@23@I@Z,1
 147457380,??0GameModeResourceManager@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,0
 147474640,??_GGameModeResourceManager@game@app@@QEAAXXZ,0
 1474d9a70,?GetStageData@GameModeResourceModule@game@app@@QEAAPEAVStageData@level@3@XZ,1
@@ -57307,6 +57313,7 @@
 14757fb00,??_GOverlayJob@UIOverlayService@ui@app@@QEAAXXZ,0
 14759bc80,??0ApplicationSequenceExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,1
 1475a7840,??_GGameModeCheckPointExtension@game@app@@QEAAXXZ,0
+1476928a0,?CreateInputComponent@GameModeInputExtension@game@app@@QEAAPEAVInputComponent@2hh@@IIIPEBD@Z,1
 1476d8a60,??0GameModeLayerStatusExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z,0
 1476e9ec0,??_DGameModeLayerStatusExtension@game@app@@QEAAXXZ,0
 1476fe370,??_GGameModeLayerStatusExtension@game@app@@QEAAXXZ,0

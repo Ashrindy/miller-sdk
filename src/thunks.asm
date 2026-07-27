@@ -20535,6 +20535,11 @@ PUBLIC ??_DGameMode@game@app@@QEAAXXZ
     mov rax, 0140161550h
     jmp rax
 
+PUBLIC ?AddExtension@GameMode@game@app@@QEAAXPEAVGameModeExtension@23@@Z
+?AddExtension@GameMode@game@app@@QEAAXPEAVGameModeExtension@23@@Z:
+    mov rax, 0140161660h
+    jmp rax
+
 PUBLIC ?GetRuntimeTypeInfo@GameMode@game@app@@UEBAPEAXXZ
 ?GetRuntimeTypeInfo@GameMode@game@app@@UEBAPEAXXZ:
     mov rax, 0140161a90h
@@ -21428,6 +21433,16 @@ PUBLIC ??0GameModeDItemExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ?UnkFunc6@DisplaySwapDeviceDX11@ImplDX11@needle@hh@@UEAA_KXZ
 ?UnkFunc6@DisplaySwapDeviceDX11@ImplDX11@needle@hh@@UEAA_KXZ:
     mov rax, 0140177030h
+    jmp rax
+
+PUBLIC ??0GameModeInputExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
+??0GameModeInputExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
+    mov rax, 01401779e0h
+    jmp rax
+
+PUBLIC ?GetInputComponent@GameModeInputExtension@game@app@@QEBAPEAVInputComponent@2hh@@I@Z
+?GetInputComponent@GameModeInputExtension@game@app@@QEBAPEAVInputComponent@2hh@@I@Z:
+    mov rax, 0140177e60h
     jmp rax
 
 PUBLIC ??0GameModePosterExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -106140,6 +106155,11 @@ PUBLIC ?Construct@NeedleFxSceneConfig@needle@hh@@CAXPEAU123@PEAVIAllocator@fnd@c
     mov rax, 01474017b0h
     jmp rax
 
+PUBLIC ?GetExtension@GameMode@game@app@@QEBAPEAVGameModeExtension@23@I@Z
+?GetExtension@GameMode@game@app@@QEBAPEAVGameModeExtension@23@I@Z:
+    mov rax, 014743bf10h
+    jmp rax
+
 PUBLIC ??0GameModeResourceManager@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0GameModeResourceManager@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 0147457380h
@@ -106203,6 +106223,11 @@ PUBLIC ??0ApplicationSequenceExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ??_GGameModeCheckPointExtension@game@app@@QEAAXXZ
 ??_GGameModeCheckPointExtension@game@app@@QEAAXXZ:
     mov rax, 01475a7840h
+    jmp rax
+
+PUBLIC ?CreateInputComponent@GameModeInputExtension@game@app@@QEAAPEAVInputComponent@2hh@@IIIPEBD@Z
+?CreateInputComponent@GameModeInputExtension@game@app@@QEAAPEAVInputComponent@2hh@@IIIPEBD@Z:
+    mov rax, 01476928a0h
     jmp rax
 
 PUBLIC ??0GameModeLayerStatusExtension@game@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
