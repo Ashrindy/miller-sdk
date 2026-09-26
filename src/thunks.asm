@@ -135,6 +135,26 @@ PUBLIC ?GetDependRefcountObject@NeedleRefcountObject@needle@hh@@UEAAPEAV123@XZ
     mov rax, 014006e510h
     jmp rax
 
+PUBLIC ?UOC_UnkFunc14@UIOptionConfig@ui@app@@UEAAHXZ
+?UOC_UnkFunc14@UIOptionConfig@ui@app@@UEAAHXZ:
+    mov rax, 014006e510h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc15@UIOptionConfig@ui@app@@UEAAHXZ
+?UOC_UnkFunc15@UIOptionConfig@ui@app@@UEAAHXZ:
+    mov rax, 014006e510h
+    jmp rax
+
+PUBLIC ?GetOptionCount@UIOptionConfig@ui@app@@UEAAHXZ
+?GetOptionCount@UIOptionConfig@ui@app@@UEAAHXZ:
+    mov rax, 014006e510h
+    jmp rax
+
+PUBLIC ?GetOptionID@UIOptionConfig@ui@app@@UEAAHH@Z
+?GetOptionID@UIOptionConfig@ui@app@@UEAAHH@Z:
+    mov rax, 014006e510h
+    jmp rax
+
 PUBLIC ?UnkFunc4@MyApplication@app@@UEAAXXZ
 ?UnkFunc4@MyApplication@app@@UEAAXXZ:
     mov rax, 0140074360h
@@ -14015,6 +14035,31 @@ PUBLIC ?GetInfoName@ObjInfo@game@hh@@UEAAPEBDXZ
     mov rax, 01400da2d0h
     jmp rax
 
+PUBLIC ?UOC_UnkFunc17@UIOptionConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc17@UIOptionConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01400da2d0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc18@UIOptionConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc18@UIOptionConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01400da2d0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc19@UIOptionConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc19@UIOptionConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01400da2d0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc20@UIOptionConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc20@UIOptionConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01400da2d0h
+    jmp rax
+
+PUBLIC ?GetOptionName@UIOptionConfig@ui@app@@UEAAPEADH@Z
+?GetOptionName@UIOptionConfig@ui@app@@UEAAPEADH@Z:
+    mov rax, 01400da2d0h
+    jmp rax
+
 PUBLIC ??0ObjNormalFloorInfoBase@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0ObjNormalFloorInfoBase@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400da2e0h
@@ -19380,11 +19425,6 @@ PUBLIC ??_DStageFadeObject@game@app@@QEAAXXZ
     mov rax, 01401304b8h
     jmp rax
 
-PUBLIC ??_DUIListener@ui@hh@@QEAAXXZ
-??_DUIListener@ui@hh@@QEAAXXZ:
-    mov rax, 0140130540h
-    jmp rax
-
 PUBLIC ??0PrimitiveRenderer@needle@hh@@QEAA@PEAVRenderingDevice@12@@Z
 ??0PrimitiveRenderer@needle@hh@@QEAA@PEAVRenderingDevice@12@@Z:
     mov rax, 0140131620h
@@ -22598,6 +22638,16 @@ PUBLIC ?GetRuntimeTypeInfo@FxParamExtension@gfx@app@@UEAAPEAXXZ
 PUBLIC ?getNumEdges@btBoxShape@@UEBAHXZ
 ?getNumEdges@btBoxShape@@UEBAHXZ:
     mov rax, 01401c4550h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc14@UIOptionSoundConfig@ui@app@@UEAAHXZ
+?UOC_UnkFunc14@UIOptionSoundConfig@ui@app@@UEAAHXZ:
+    mov rax, 01401c4610h
+    jmp rax
+
+PUBLIC ?GetOptionCount@UIOptionSoundConfig@ui@app@@UEAAHXZ
+?GetOptionCount@UIOptionSoundConfig@ui@app@@UEAAHXZ:
+    mov rax, 01401c4610h
     jmp rax
 
 PUBLIC ??0FxParamManager@gfx@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -50630,6 +50680,21 @@ PUBLIC ?Create@UINoticeBoard@ui@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
     mov rax, 014078d210h
     jmp rax
 
+PUBLIC ??_DUIOptionConfig@ui@app@@QEAAXXZ
+??_DUIOptionConfig@ui@app@@QEAAXXZ:
+    mov rax, 014078d660h
+    jmp rax
+
+PUBLIC ?AddCallback@UIOptionConfig@ui@app@@UEAAXPEAVGameManager@game@hh@@@Z
+?AddCallback@UIOptionConfig@ui@app@@UEAAXPEAVGameManager@game@hh@@@Z:
+    mov rax, 014078d740h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc27@UIOptionConfig@ui@app@@UEAAXHHD@Z
+?UOC_UnkFunc27@UIOptionConfig@ui@app@@UEAAXHHD@Z:
+    mov rax, 014078ea70h
+    jmp rax
+
 PUBLIC ?Create@UIOptionConfig@ui@app@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@UIOptionConfig@ui@app@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 0140791b40h
@@ -50658,6 +50723,16 @@ PUBLIC ?Create@UIOptionMenu@ui@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ?Create@UIOptionMenuBase@ui@app@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@UIOptionMenuBase@ui@app@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 0140794160h
+    jmp rax
+
+PUBLIC ?GetClass@UIOptionSubConfig@ui@app@@SAPEBVGameObjectClass@game@hh@@XZ
+?GetClass@UIOptionSubConfig@ui@app@@SAPEBVGameObjectClass@game@hh@@XZ:
+    mov rax, 0140797880h
+    jmp rax
+
+PUBLIC ?Create@UIOptionSubConfig@ui@app@@CAPEAVGameObject@game@hh@@PEAVIAllocator@fnd@csl@@@Z
+?Create@UIOptionSubConfig@ui@app@@CAPEAVGameObject@game@hh@@PEAVIAllocator@fnd@csl@@@Z:
+    mov rax, 0140797890h
     jmp rax
 
 PUBLIC ??_GUIOptionExtraConfig@ui@app@@QEAAXXZ
@@ -50833,6 +50908,61 @@ PUBLIC ?Create@UIOptionKeyConfig@ui@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ??_GUIOptionSoundConfig@ui@app@@QEAAXXZ
 ??_GUIOptionSoundConfig@ui@app@@QEAAXXZ:
     mov rax, 01407a1490h
+    jmp rax
+
+PUBLIC ??_DUIOptionSoundConfig@ui@app@@QEAAXXZ
+??_DUIOptionSoundConfig@ui@app@@QEAAXXZ:
+    mov rax, 01407a1490h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc22@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?UOC_UnkFunc22@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 01407a1620h
+    jmp rax
+
+PUBLIC ?OnValueChanged@UIOptionSoundConfig@ui@app@@UEAAXHD@Z
+?OnValueChanged@UIOptionSoundConfig@ui@app@@UEAAXHD@Z:
+    mov rax, 01407a1620h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc19@UIOptionSoundConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc19@UIOptionSoundConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01407a1750h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc15@UIOptionSoundConfig@ui@app@@UEAAHXZ
+?UOC_UnkFunc15@UIOptionSoundConfig@ui@app@@UEAAHXZ:
+    mov rax, 01407a1760h
+    jmp rax
+
+PUBLIC ?GetOptionID@UIOptionSoundConfig@ui@app@@UEAAHH@Z
+?GetOptionID@UIOptionSoundConfig@ui@app@@UEAAHH@Z:
+    mov rax, 01407a1760h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc18@UIOptionSoundConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc18@UIOptionSoundConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01407a1780h
+    jmp rax
+
+PUBLIC ?GetOptionName@UIOptionSoundConfig@ui@app@@UEAAPEADH@Z
+?GetOptionName@UIOptionSoundConfig@ui@app@@UEAAPEADH@Z:
+    mov rax, 01407a1780h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc17@UIOptionSoundConfig@ui@app@@UEAAPEADXZ
+?UOC_UnkFunc17@UIOptionSoundConfig@ui@app@@UEAAPEADXZ:
+    mov rax, 01407a17a0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc11@UIOptionSoundConfig@ui@app@@UEAADXZ
+?UOC_UnkFunc11@UIOptionSoundConfig@ui@app@@UEAADXZ:
+    mov rax, 01407a18e0h
+    jmp rax
+
+PUBLIC ?IsIndexInRange@UIOptionSoundConfig@ui@app@@UEAA_NH@Z
+?IsIndexInRange@UIOptionSoundConfig@ui@app@@UEAA_NH@Z:
+    mov rax, 01407a18e0h
     jmp rax
 
 PUBLIC ?GetClass@UIOptionSoundConfig@ui@app@@SAPEBVGameObjectClass@game@hh@@XZ
@@ -51800,6 +51930,11 @@ PUBLIC ??0SystemAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
     mov rax, 0140800df0h
     jmp rax
 
+PUBLIC ?GetSystemAccessor@SaveInterface@save@app@@QEAA?AVSystemAc@23@XZ
+?GetSystemAccessor@SaveInterface@save@app@@QEAA?AVSystemAc@23@XZ:
+    mov rax, 0140800df0h
+    jmp rax
+
 PUBLIC ?PostStepCallback@SaveManager@save@app@@UEAAXPEAVGameManager@game@hh@@AEBUGameStepInfo@56@@Z
 ?PostStepCallback@SaveManager@save@app@@UEAAXPEAVGameManager@game@hh@@AEBUGameStepInfo@56@@Z:
     mov rax, 0140802400h
@@ -51808,6 +51943,11 @@ PUBLIC ?PostStepCallback@SaveManager@save@app@@UEAAXPEAVGameManager@game@hh@@AEB
 PUBLIC ?GetRuntimeTypeInfo@SaveManager@save@app@@UEBAPEAXXZ
 ?GetRuntimeTypeInfo@SaveManager@save@app@@UEBAPEAXXZ:
     mov rax, 01408028d0h
+    jmp rax
+
+PUBLIC ?GetSystemAccessor@SaveManager@save@app@@QEAA?AVSystemAc@23@XZ
+?GetSystemAccessor@SaveManager@save@app@@QEAA?AVSystemAc@23@XZ:
+    mov rax, 01408028e0h
     jmp rax
 
 PUBLIC ?UIEL_UnkFunc1@SaveManager@save@app@@UEAAXXZ
@@ -51822,6 +51962,11 @@ PUBLIC ??_DUIWhiteSpaceQAList@ui@app@@QEAAXXZ
 
 PUBLIC ??_DSavePermission@save@app@@QEAAXXZ
 ??_DSavePermission@save@app@@QEAAXXZ:
+    mov rax, 01408046c0h
+    jmp rax
+
+PUBLIC ?GetClass@SaveManager@save@app@@SAPEBVGameServiceClass@game@hh@@XZ
+?GetClass@SaveManager@save@app@@SAPEBVGameServiceClass@game@hh@@XZ:
     mov rax, 01408046c0h
     jmp rax
 
@@ -67648,6 +67793,16 @@ Intersect__Q3_3csl4geom4AabbCFRCQ3_3csl4geom4Aabb:
 PUBLIC ?Intersect@Aabb@geom@csl@@QEBA_NAEBV123@@Z
 ?Intersect@Aabb@geom@csl@@QEBA_NAEBV123@@Z:
     mov rax, 0140f58320h
+    jmp rax
+
+PUBLIC ?Create@Thread@fnd@csl@@QEAAXIP6AHPEAX@Z0HHPEBD@Z
+?Create@Thread@fnd@csl@@QEAAXIP6AHPEAX@Z0HHPEBD@Z:
+    mov rax, 0140f59a80h
+    jmp rax
+
+PUBLIC ?ThreadSleep@fnd@csl@@YAXH@Z
+?ThreadSleep@fnd@csl@@YAXH@Z:
+    mov rax, 0140f59e00h
     jmp rax
 
 PUBLIC ?Intersection@math@csl@@YA_NAEBVSphere@geom@2@AEBVObb@42@@Z
@@ -88945,11 +89100,6 @@ PUBLIC ?gameObjectClass@UINoticeBoard@ui@app@@0VGameObjectClass@game@hh@@B
     mov rax, 0142923f90h
     jmp rax
 
-PUBLIC ?gameObjectClass@UIOptionConfig@ui@app@@0VGameObjectClass@game@hh@@B
-?gameObjectClass@UIOptionConfig@ui@app@@0VGameObjectClass@game@hh@@B:
-    mov rax, 0142924000h
-    jmp rax
-
 PUBLIC ?gameObjectClass@UIOptionMenu@ui@app@@0VGameObjectClass@game@hh@@B
 ?gameObjectClass@UIOptionMenu@ui@app@@0VGameObjectClass@game@hh@@B:
     mov rax, 01429240d0h
@@ -88958,6 +89108,11 @@ PUBLIC ?gameObjectClass@UIOptionMenu@ui@app@@0VGameObjectClass@game@hh@@B
 PUBLIC ?gameObjectClass@UIOptionMenuBase@ui@app@@0VGameObjectClass@game@hh@@B
 ?gameObjectClass@UIOptionMenuBase@ui@app@@0VGameObjectClass@game@hh@@B:
     mov rax, 0142924130h
+    jmp rax
+
+PUBLIC ?gameObjectClass@UIOptionSubConfig@ui@app@@0VGameObjectClass@game@hh@@B
+?gameObjectClass@UIOptionSubConfig@ui@app@@0VGameObjectClass@game@hh@@B:
+    mov rax, 01429241a0h
     jmp rax
 
 PUBLIC ?gameObjectClass@UIOptionExtraConfig@ui@app@@0VGameObjectClass@game@hh@@B
@@ -100780,6 +100935,11 @@ PUBLIC ?gameServiceClass@PlayReportAnalyzer@user@app@@0VGameServiceClass@game@hh
     mov rax, 01429cd888h
     jmp rax
 
+PUBLIC ?gameServiceClass@SaveManager@save@app@@0VGameServiceClass@game@hh@@B
+?gameServiceClass@SaveManager@save@app@@0VGameServiceClass@game@hh@@B:
+    mov rax, 01429cd8d0h
+    jmp rax
+
 PUBLIC ?gameServiceClass@ShareManagerNull@app@@0VGameServiceClass@game@hh@@B
 ?gameServiceClass@ShareManagerNull@app@@0VGameServiceClass@game@hh@@B:
     mov rax, 01429cd900h
@@ -111030,9 +111190,19 @@ PUBLIC ??_DUIOptionGraphicsConfig@ui@app@@QEAAXXZ
     mov rax, 014bafff90h
     jmp rax
 
-PUBLIC ??_DUIOptionSoundConfig@ui@app@@QEAAXXZ
-??_DUIOptionSoundConfig@ui@app@@QEAAXXZ:
-    mov rax, 014bafff90h
+PUBLIC ?GetDescriptionText@UIOptionConfig@ui@app@@UEAAX_JPEAD@Z
+?GetDescriptionText@UIOptionConfig@ui@app@@UEAAX_JPEAD@Z:
+    mov rax, 014bb4e210h
+    jmp rax
+
+PUBLIC ?GetOption@UIOptionConfig@ui@app@@QEAAPEAUOption@123@H@Z
+?GetOption@UIOptionConfig@ui@app@@QEAAPEAUOption@123@H@Z:
+    mov rax, 014bb4ff80h
+    jmp rax
+
+PUBLIC ?Setup@UIOptionConfig@ui@app@@QEAAXAEBUDescription@123@@Z
+?Setup@UIOptionConfig@ui@app@@QEAAXAEBUDescription@123@@Z:
+    mov rax, 014bbeab10h
     jmp rax
 
 PUBLIC ??0UIOptionMenuBase@ui@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -111048,6 +111218,16 @@ PUBLIC ??0UIOptionSubConfig@ui@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ??_GUIOptionSubConfig@ui@app@@QEAAXXZ
 ??_GUIOptionSubConfig@ui@app@@QEAAXXZ:
     mov rax, 014bc70060h
+    jmp rax
+
+PUBLIC ??_DUIOptionSubConfig@ui@app@@QEAAXXZ
+??_DUIOptionSubConfig@ui@app@@QEAAXXZ:
+    mov rax, 014bc70060h
+    jmp rax
+
+PUBLIC ?AddCallback@UIOptionSubConfig@ui@app@@UEAAXPEAVGameManager@game@hh@@@Z
+?AddCallback@UIOptionSubConfig@ui@app@@UEAAXPEAVGameManager@game@hh@@@Z:
+    mov rax, 014bc777c0h
     jmp rax
 
 PUBLIC ??_DObjPBDMeteoriteHockeyInfo@app@@QEAAXXZ
@@ -111068,6 +111248,56 @@ PUBLIC ?Create@DestroyLevel@states@heur@@CAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ??_DPrologue@State@GameModeTitle@game@app@@QEAAXXZ
 ??_DPrologue@State@GameModeTitle@game@app@@QEAAXXZ:
     mov rax, 014be1de3dh
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc4@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?UOC_UnkFunc4@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be36cc0h
+    jmp rax
+
+PUBLIC ?ApplyChanges@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?ApplyChanges@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be36cc0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc5@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?UOC_UnkFunc5@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be3e5c0h
+    jmp rax
+
+PUBLIC ?ResetOptions@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?ResetOptions@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be3e5c0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc21@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?UOC_UnkFunc21@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be4e7e0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc21@UIOptionSoundConfig@ui@app@@UEAAXH_J@Z
+?UOC_UnkFunc21@UIOptionSoundConfig@ui@app@@UEAAXH_J@Z:
+    mov rax, 014be4e7e0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc7@UIOptionSoundConfig@ui@app@@UEAADXZ
+?UOC_UnkFunc7@UIOptionSoundConfig@ui@app@@UEAADXZ:
+    mov rax, 014be609e0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc7@UIOptionSoundConfig@ui@app@@UEAADH@Z
+?UOC_UnkFunc7@UIOptionSoundConfig@ui@app@@UEAADH@Z:
+    mov rax, 014be609e0h
+    jmp rax
+
+PUBLIC ?UOC_UnkFunc6@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?UOC_UnkFunc6@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be6f210h
+    jmp rax
+
+PUBLIC ?InitUI@UIOptionSoundConfig@ui@app@@UEAAXXZ
+?InitUI@UIOptionSoundConfig@ui@app@@UEAAXXZ:
+    mov rax, 014be6f210h
     jmp rax
 
 PUBLIC ??_GUIFilterService@ui@app@@QEAAXXZ
@@ -111185,11 +111415,6 @@ PUBLIC ??_DUILicense@ui@app@@QEAAXXZ
     mov rax, 014c15b330h
     jmp rax
 
-PUBLIC ??_DUIOptionSubConfig@ui@app@@QEAAXXZ
-??_DUIOptionSubConfig@ui@app@@QEAAXXZ:
-    mov rax, 014c15b330h
-    jmp rax
-
 PUBLIC ??_DUIOptionExtraMenu@ui@app@@QEAAXXZ
 ??_DUIOptionExtraMenu@ui@app@@QEAAXXZ:
     mov rax, 014c15b330h
@@ -111250,6 +111475,11 @@ PUBLIC ??0OptionAudioAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
     mov rax, 014c26baf0h
     jmp rax
 
+PUBLIC ?GetOptionAudioAc@SystemAc@save@app@@QEAA?AVOptionAudioAc@23@XZ
+?GetOptionAudioAc@SystemAc@save@app@@QEAA?AVOptionAudioAc@23@XZ:
+    mov rax, 014c26baf0h
+    jmp rax
+
 PUBLIC ??0OptionCameraAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0OptionCameraAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 014c285380h
@@ -111283,6 +111513,11 @@ PUBLIC ??0OptionGraphicsAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 PUBLIC ??0HeaderAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0HeaderAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 014c2a96e0h
+    jmp rax
+
+PUBLIC ?GetMusicVolume@OptionAudioAc@save@app@@QEBAMXZ
+?GetMusicVolume@OptionAudioAc@save@app@@QEBAMXZ:
+    mov rax, 014c2f68a0h
     jmp rax
 
 PUBLIC ??0RankingAc@save@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -111343,6 +111578,11 @@ PUBLIC ?OnRemovedFromGame@SaveManager@save@app@@UEAAXXZ
 PUBLIC ??_DSaveProcess@save@app@@QEAAXXZ
 ??_DSaveProcess@save@app@@QEAAXXZ:
     mov rax, 014c4ad4d0h
+    jmp rax
+
+PUBLIC ?GetSystemAccessor@save@app@@YA?AVSystemAc@12@PEAVGameManager@game@hh@@@Z
+?GetSystemAccessor@save@app@@YA?AVSystemAc@12@PEAVGameManager@game@hh@@@Z:
+    mov rax, 014c4e01b0h
     jmp rax
 
 PUBLIC ??_GShareManagerNull@app@@QEAAXXZ
@@ -116933,6 +117173,21 @@ PUBLIC ?GetTextureListAddressRange@ChunkInfo@SRS_BINARY_FILE_HEADER_CHUNK@SurfRi
 PUBLIC ?ApplyMemoryImageToProject@BinaryData@SurfRide@@QEAAPEAVProject@2@_N@Z
 ?ApplyMemoryImageToProject@BinaryData@SurfRide@@QEAAPEAVProject@2@_N@Z:
     mov rax, 015700a620h
+    jmp rax
+
+PUBLIC ??_DThread@fnd@csl@@QEAAXXZ
+??_DThread@fnd@csl@@QEAAXXZ:
+    mov rax, 0157149820h
+    jmp rax
+
+PUBLIC ??1Thread@fnd@csl@@QEAA@XZ
+??1Thread@fnd@csl@@QEAA@XZ:
+    mov rax, 0157149820h
+    jmp rax
+
+PUBLIC ?Exit@Thread@fnd@csl@@QEAADXZ
+?Exit@Thread@fnd@csl@@QEAADXZ:
+    mov rax, 0157176990h
     jmp rax
 
 PUBLIC ?Free@FreeListHeapBase@fnd@csl@@UEAAXPEAX@Z

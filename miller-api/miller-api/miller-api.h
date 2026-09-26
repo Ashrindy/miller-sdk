@@ -91,6 +91,7 @@ namespace millersdk::ucsl {
 #include "cslib/csl/ut/Color.h"
 #include "cslib/csl/ut/NonCopyable.h"
 #include "cslib/csl/ut/Pair.h"
+#include "cslib/csl/ut/Pair.h"
 #include "cslib/csl/ut/String.h"
 #include "cslib/csl/ut/VariableString.h"
 #include "cslib/csl/ut/Byteswap.h"
@@ -105,6 +106,7 @@ namespace millersdk::ucsl {
 #include "cslib/csl/fnd/Delegate.h"
 #include "cslib/csl/fnd/Function.h"
 #include "cslib/csl/fnd/ThreadSleep.h"
+#include "cslib/csl/fnd/Thread.h"
 
 #include <LinearMath/btDefaultMotionState.h>
 #include <BulletCollision/CollisionShapes/btSphereShape.h>
@@ -885,6 +887,7 @@ namespace millersdk::ucsl {
 #include "Application/UI/RequestOverlayWindow.h"
 #include "Application/UI/RequestOverlayCaption.h"
 #include "Application/UI/UIOverlayService.h"
+#include "Application/UI/UIOptionConfig.h"
 #include "Application/UI/Messages.h"
 
 #include "Application/Game/Helpers.h"
